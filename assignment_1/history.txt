@@ -1,0 +1,439 @@
+    1  /cita/local/bin/passwd
+    2  9juu8j7fZQ6shPHk
+    3  /cita/local/bin/passwd
+    4  passwd
+    5  cd cita/local/bin
+    6  passwd
+    7  cita/local/bin/passwd
+    8  /cita
+    9  /local
+   10  /cita/local
+   11  /cita/local/bin
+   12  /cita/local/bin/passwd
+   13  df -h
+   14  cd /cita
+   15  cd/cita/local/bin/passwd
+   16  cd /cita/local/bin/passwd
+   17  /cita/local/bin/passwd
+   18  ssh username@gw.cita.utoronto.ca
+   19  vncserver
+   20  cosmo3.cita.utoronto.ca:6
+   21  hsoni@cosmo3.cita.utoronto.ca:6
+   22  shrimp
+   23  git clone https://github.com/CITA/CTA200H.git
+   24  ls
+   25  ls -l
+   26  pwd
+   27  history
+   28  cd /mnt/scratch/hsoni
+   29  cd /fs/lustre/scratch/hsoni
+   30  cd/fs/lustre/scratch/hsoni
+   31  /fs/lustre/scratch/hsoni
+   32  /fs/lustre/scratch/hsoni/
+   33  /fs/lustre/scratch/hsoni/du
+   34  /fs/lustre/scratch/hsoni du
+   35  du /fs/lustre/scratch/hsoni
+   36  git clone https://github.com/Hetvisoni112/CTA200H.git
+   37  git pull
+   38  git add.
+   39  git
+   40  git add 
+   41  git add .
+   42  git remote set url origin https://github.com/Hetvisoni112/CTA200H.git
+   43  git remote set-url origin https://github.com/Hetvisoni112/CTA200H.git
+   44  git commit
+   45  git add .
+   46  git status
+   47  git clone https://github.com/Hetvisoni112/CTA200H.git
+   48  git log
+   49  git pull
+   50  history
+   51  git clone https://github.com/Hetvisoni112/CTA200H.git
+   52  git status 
+   53  ls
+   54  cd
+   55  cd CTA200H
+   56  ls
+   57  vi test.md
+   58  /fs/lustre/scratch/hsoni
+   59  ls
+   60  mkdir
+   61  mkdir CTA200_2025
+   62  ls
+   63  cd CTA200_2025
+   64  ls
+   65  cs assignment_1
+   66  ls
+   67  cs assignment_1
+   68  cd
+   69  ls
+   70  cd CTA200_2025
+   71  ls
+   72  cd assignment_1
+   73  ls
+   74  cd README.md
+   75  vi README.md
+   76  git add README.md
+   77  git clone https://github.com/Hetvisoni112/CTA200H.git
+   78  git add README.md
+   79  cd
+   80  cd https://github.com/Hetvisoni112/CTA200H.git
+   81  cd CTA200H
+   82  ls
+   83  cd README.md
+   84  git add README.md
+   85  git commit -m"added a title"
+   86  git push
+   87  git pull
+   88  git status 
+   89  git add README.md
+   90  git commit -m"added title"
+   91  /fs/lustre/scratch/hsoni
+   92  cd /fs/lustre/scratch/hsoni
+   93  mkdir CTA200_2025
+   94  ls
+   95  cs CTA200_2025
+   96  cd CTA200_2025
+   97  ls
+   98  cd assignment_1
+   99  ls
+  100  vi README.md
+  101  git clone https://github.com/Hetvisoni112/CTA200H.git
+  102  git add README.md
+  103  /fs/lustre/scratch/hsoni
+  104  ssh hsoni@cosmo3.cita.utoronto.ca
+  105  /cita/local/bin/passwd
+  106  ssh cosmo3
+  107  ssh cosmo1
+  108  ssh cosmo1
+  109  /fs/lustre/scratch/hsoni
+  110  cd /fs
+  111  ls
+  112  cd /fs/lustre
+  113  ls
+  114  ssh cosmo9
+  115  cd /fs
+  116  fs
+  117  ls
+  118  cd /fs/lustre
+  119  ls
+  120  ssh cosmo9
+  121  /fs
+  122  ls
+  123  cd /fs
+  124  ls
+  125  cd /fs/lustre
+  126  ls
+  127  cd /fs
+  128  ls
+  129  ssh cosmo1
+  130  ssh cosmo9
+  131  ssh cosmo2
+  132  ssh cosmo3
+  133  ssh cosmo4
+  134  ssh cosmo5
+  135  ssh cosmo6
+  136  ssh cosmo9
+  137  ssh cosmo6
+  138  ls
+  139  cd CTA200_2025
+  140  ls
+  141  cd CTA200H1
+  142  cd CTA200H
+  143  cd ..
+  144  ls
+  145  cd CTA200H
+  146  ls
+  147  nano README.md
+  148  git add
+  149  git add README.md
+  150  git commit -m"Testing"
+  151  git push
+  152  Gr4@india&calgary
+  153  ssh cosmo6
+  154  ls
+  155  cd CTA200H
+  156  ls
+  157  git push
+  158  ls ~/.ssh
+  159  ssh~keygen -t ed25519 -C "hetvisoni2909@gmail.com"
+  160  ssh-keygen -t ed25519 -C "hetvisoni2909@gmail.com"
+  161  cat ~/.ssh/id_ed25519.pub
+  162  ssh -T git@github.com
+  163  eval "$(ssh-agent -s)"
+  164  ssh-add ~/.ssh/id_ed25519
+  165  ssh -T git@github.com
+  166  git remote -v
+  167  ssh -vT git@github.com
+  168  git remote -v
+  169  git add README.md
+  170  git commit-m"Testing"
+  171  git commit -m"Testing"
+  172  git push
+  173  $ ssh -L 7777:localhost:7777 cosmo6
+  174  ssh -L 7777:localhost:7777 cosmo6
+  175  module load python/3.10.2
+  176  jupyter notebook --port=7777 --no-browser
+  177  ls
+  178  cd Hetvi_CTA200H
+  179  ls
+  180  cd assignments
+  181  ls
+  182  cd assignment_2
+  183  ls
+  184  git add assignment_2
+  185  git add assignment.ipynb
+  186  git commit -m"Finished assignment 2"
+  187  git push
+  188  git status
+  189  ssh cosmo6
+  190  git add assignment.ipynb
+  191  cd Hetvi_CTA200H
+  192  ls
+  193  cd assignments
+  194  ls
+  195  cd assignment_2
+  196  ls
+  197  git add assignment.ipynb
+  198  git commit -m"Done Assignment 2"
+  199  git push
+  200  ssh-add -l
+  201  eval "$(ssh-agent -s)"
+  202  ssh-add ~/.ssh/id_ed25519
+  203  git push
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd CTA200_2025
+  212  ls
+  213  mkdir assignment_2
+  214  ls
+  215  cd assignment_2
+  216  ls
+  217  git push
+  218  git add assignment.ipynb
+  219  cd ..
+  220  ls
+  221  git clone https://github.com/Hetvisoni112/Hetvi_CTA200_rep.git
+  222  rm -r assignment_1
+  223  ls
+  224  cd Hetvi_CTA200_rep
+  225  mkdir assignment_1
+  226  mkdir assignment_2
+  227  ls
+  228  cd assignment_2
+  229  git add assignment.ipynb
+  230  ssh -L 9897:localhost:9897 hsoni@gw.cita.utoronto.ca
+  231  ssh -L 9897:localhost:9897 cosmo6
+  232  module load python/3.10.2
+  233   jupyter notebook --port=9897 --no-browser
+  234  ssh -L 6766:localhost:6766 hsoni@gw.cita.utoronto.ca
+  235  ssh -L 6766:localhost:6766 cosmo6
+  236  ssh -L 9890:localhost:9890 hsoni@gw.cita.utoronto.ca
+  237  ssh -L 9890:localhost:9890 cosmo6
+  238  module load python/3.10.2
+  239   jupyter notebook --port=9890 --no-browser
+  240  ssh -L 9898:localhost:9898 cosmo1
+  241  ssh -L 9898:localhost:9898 cosmo6
+  242  module load python/3.10.2
+  243  jupyter notebook --port=9898 --no-browser
+  244  cd /fs
+  245  ls
+  246  cd /fs/lustre
+  247  ls
+  248  cd /fs/lustre/scratch/hsoni
+  249  cd /fs/lustre/scratch/
+  250  ls
+  251  ls -a
+  252  ssh cosmo1
+  253  ssh cosmo2
+  254  ssh cosmo3
+  255  ssh cosmo4
+  256  ssh cosmo6
+  257  ls
+  258  cd CTA200_2025
+  259  ls
+  260  cd assignment_1
+  261  ls
+  262  vi README.md
+  263  ls
+  264  cd CTA200H
+  265  ls
+  266  ls
+  267  cd CTA200_2025
+  268  ls
+  269  cd assignment_2
+  270  ls
+  271  cd ..
+  272  ls
+  273  rm -rf assignment_1
+  274  ls
+  275  rm -rf assignment_2
+  276  ls
+  277  cd Hetvi_CTA200_rep
+  278  ls
+  279  cd assignment_2
+  280  ls
+  281  git add assignment.ipynb
+  282  git commit -m"Done Assignment 2"
+  283  git push
+  284  ssh cosmo6
+  285  cd CTA200_2025
+  286  ls
+  287  cd Hetvi_CTA200_rep
+  288  ls
+  289  ssh-keygen -t ed25519 -C "hetvisoni2909.com"
+  290  cat ~/.ssh/id_ed25519.pub
+  291  ssh-keygen -t ed25519 -C "hetvisoni2909@gmail.com"
+  292  cat ~/.ssh/id_ed25519.pub
+  293  eval "$(ssh-agent -s)"
+  294  ssh-add ~/.ssh/id_ed25519
+  295  ssh -T git@github.com
+  296  ls
+  297  cd assignment_2
+  298  ls
+  299  git add assignment.ipynb
+  300  git commit -m"Done Assignment 2"
+  301  git push
+  302  git remote set-url origin git@github.com:Hetvisoni112/Hetvi_CTA200_rep.git
+  303  git remote -v
+  304  ls
+  305  git add assignment.ipynb
+  306  git commit -m"Done Assignment 2"
+  307  git push
+  308  ls
+  309  cd ..
+  310  ls
+  311  git pull
+  312  cd
+  313  ls
+  314  cd CTA200_2025
+  315  ls
+  316  cd Hetvi_CTA200_rep
+  317  ls
+  318  ssh -L 8181:localhost:8181 cosmo6
+  319  module load python/3.10.2
+  320   jupyter notebook --port=8181 --no-browser
+  321  ssh -L 9999:localhost:9999 cosmo1
+  322  ssh -L 9999:localhost:9999 cosmo6
+  323  ssh cosmo6
+  324  module load python/3.10.2
+  325  jupyter notebook --port=9999 --no-browser
+  326  ssh-keygen -t ed25519 -C "Hetvisoni2909@gmail.com"
+  327  cat ~/.ssh/id_ed25519.pub
+  328  ssh -T git@github.com
+  329  eval "$(ssh-agent -s)"
+  330  ssh-add ~/.ssh/id_ed25519
+  331  ssh -T git@github.com
+  332  git remote -v
+  333  ls
+  334  cs CTA200H
+  335  cd CTA200H
+  336  git remote -v
+  337  cd ..
+  338  ls
+  339  rmdir CTA200H
+  340  rm -r CTA200H
+  341  rm -f CTA200H
+  342  rm -rf CTA200H
+  343  ls
+  344  git clone https://github.com/Hetvisoni112/Hetvi_CTA200H.git
+  345  ls
+  346  cd Hetvi_CTA200H
+  347  ls
+  348  nano README.md
+  349  git add README.md
+  350  git commit -m"Testing"
+  351  git push
+  352  ssh-keygen -t ed25519 -C "Hetvisoni2909@gmail.com"
+  353  cat ~/.ssh/id_ed25519.pub
+  354  eval "$(ssh-agent -s)"
+  355  ssh-add ~/.ssh-id_ed25519
+  356  ls
+  357  ssh-add ~/.ssh/id_ed25519
+  358  ssh -T git@github.com
+  359  git remote -v
+  360  git push origin master
+  361  git remote set-url origin git@github.com:Hetvisoni112/Hetvi_CTA200H.git
+  362  git remote -v
+  363  git push origin master
+  364  $ ssh -L 9999:localhost:9999 hsoni@gw.cita.utoronto.ca
+  365  ssh -L 9999:localhost:9999 hsoni@gw.cita.utoronto.ca
+  366  cd //fs/lustre/scratch
+  367  cd /fs
+  368  ls
+  369  cd /fs/lustre
+  370  ls
+  371  /fs/lustre/scratch
+  372  ls
+  373  cd
+  374  ssh 
+  375  /fs/lustre/scratch/hsoni
+  376  cd /fs/lustre/scratch/hsoni
+  377  ssh -T git@github.com
+  378  ssh-keygen -t ed25519 -C "hetvisoni2909@gmail.com"
+  379  cat ~/.ssh/id_ed25519.pub
+  380  ssh -T git@github.com
+  381  cat ~/.ssh/id_ed25519.pub
+  382  ssh-keygen -t ed25519 -C "hetvisoni2909@gmail.com" -f ~/.ssh/id_ed25519_cosmo6
+  383  nano ~/.ssh/config
+  384  cat ~/.ssh/id_ed25519_cosmo6.pub
+  385  ssh -T git@github.com
+  386  nano ~/.ssh/config
+  387  ssh -T git@github.com
+  388  ls
+  389  cd /fs/lustre/scratch/hsoni
+  390  ls
+  391  cd CTA200_2025
+  392  ls
+  393  cd Hetvi_CTA200_rep
+  394  ls
+  395  git add .
+  396  cd assignment_1
+  397  ls
+  398  git add .
+  399  cd ..
+  400  git add .
+  401  git commit -m"Ass. 1"
+  402  git push
+  403  git pull --rebase origin main
+  404  git push
+  405  git pull --rebase origin main
+  406  git push
+  407  cd ..
+  408  ls
+  409  cd Hetvi_CTA200_rep
+  410  ls
+  411  cs assignment_1
+  412  ls
+  413  cd assignment_1
+  414  ls
+  415  mv Hello_world.c Hello_world_Soni.c
+  416  ls
+  417  mv Hello_world.py Hello_world_Soni.py
+  418  ls
+  419  module load gcc
+  420  gcc Hello_world.c -o Hello_world.x
+  421  gcc Hello_world_Soni.c -o Hello_world.x
+  422  ls
+  423  ./Hello_world.x
+  424  vi Hello_world.c
+  425  ls
+  426  rm -rf Hello_world.c
+  427  ls
+  428  vi Hello_world_Soni.c
+  429  vi Hello_world_Soni.py
+  430  gcc Hello_world_Soni.c -o Hello_world.x
+  431  ls
+  432  ./Hello_world.x > output_c.txt
+  433  python Hello_world.py > output_python.txt
+  434  ./Hello_world.x > output_c.txt
+  435  python Hello_world_Soni.py > output_python.txt
+  436  cat output_c.txt
+  437  cat output_python.txt
+  438  history > assignment_1/history.txt
+  439  history > history.txt
