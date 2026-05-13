@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\geometry{margin=1in}
+
+% ── Code styling ──────────────────────────────────────────────────
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{orange},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!10},
+}
+\lstset{style=pythonstyle}
+
+\title{CITA Assignment 3}
+\author{Hetvi Soni}
+\date{12 May 2026}
+
+\begin{document}
+\maketitle
+
+\section{Mandelbrot Set}
+\vspace{-10pt}
+\subsection{Introduction}
+A complex number is represented as:
+\begin{equation}
+    z = x + iy
+\end{equation}
+where x and y represent the real and imaginary parts of the complex number z, respectively.
+
+The Mandelbrot set is composed of complex variables $c$ that produces an infinitely complex fractal shape when plotted. It is represented by the formula:
+\begin{equation} \label{eq. 1}
+     z_{n+1} = z_n^2 + c \quad
+\end{equation}
+where n is the number of iterations, and $z\_n$ is the n-th iteration of the complex set. 
+From this, $|z|^2 = \mathfrak{R}(z)^2 + \mathfrak{I}(z)^2$ has some points $c$ that are bounded and some that are unbounded. Bounded points converge, and form the Mandelbrot set, while unbounded points diverge to infinity. 
+
+\vspace{-10pt}
+\subsection{Methods}
+To clearly visualize the Mandelbrot set and see how many iterations it takes for points to converge, the \textit{complex\_z} function was used from \textit{assignment3py.py} file and imported into the \textit{assignment3code
+} Jupyter notebook. 
+
+The function numerically approximated the Mandelbrot set by iterating the complex recurrence relation (Eq. \ref{eq. 1}) with initial condition \(z_0 = 0\), for each complex number \(c = x + iy\) on a grid in the complex plane. At each iteration, the algorithm verified whether \(|z| > 2\), which indicated divergence. The iteration count at which divergence occured was recorded for each point, while points that remained bounded up to \texttt{max\_iter} were assigned the maximum iteration value. The function returned the complex grid and the corresponding divergence iteration counts.
+\vspace{-10pt}
+\subsection{Plots}
+\vspace{-10pt}
+\begin{figure}[H!]
+    \centering
+    \vspace{-10pt}
+    \includegraphics[width=0.6\textwidth]{CTA200/ass3_1.png}
+    \vspace{-10pt}
+    \caption{Mandelbrot set: bounded points (blue) vs divergent points (red).}
+    \label{fig:mandel1}
+\end{figure}
+\begin{figure}[H!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{CTA200/ass3_2.png}
+    \caption{Mandelbrot set coloured by escape iteration. The blue region is bounded while the white region is unbounded. The Cmap is provided to see how many iterations it takes for the white region to diverge.}
+    \label{fig:mandel2}
+\end{figure}
+
+\newpage
+\subsection{Results}
+Fig. \ref{fig:mandel1} shows a binary visualization of the Mandelbrot set, where blue points represent values of \(c\) for which the sequence (Eq. \ref{eq. 1}) remains bounded up to the maximum iteration count, and red points represent values that diverge. Hence, the blue region approximates the Mandelbrot set. Fig. \ref{fig:mandel2} shows the escape iteration count for diverging points. Colours indicate how quickly the sequence diverges, with points near the Mandelbrot boundary requiring more iterations to escape. This reveals the fractal structure and intricate boundary behaviour characteristic of the Mandelbrot set.
+
+\section{The Lorenz System}
+\subsection{Introduction}
+Edward Lorenz demonstrated that deterministic physical systems could exhibit chaotic behaviour. Lorenz modelled Earth's atmosphere as a thin fluid layer heated from below, retaining only three Fourier modes with amplitudes $W \equiv (X, Y, Z)$. 
+
+The Lorenz equations are:
+\begin{align}
+    \dot{X} &= -\sigma(X - Y) \label{eq:1} \\
+    \dot{Y} &= rX - Y - XZ   \label{eq:2} \\
+    \dot{Z} &= -bZ + XY      \label{eq:3}
+\end{align}
+
+where $\sigma$ is the Prandtl number, $r$ is the Rayleigh number, and $b$ is a dimensionless length scale. 
+\subsection{Methods}
+The equations were integrated using \texttt{solve\_ivp} (RK45) with Lorenz's original parameter values $[\sigma, r, b] = [10, 28, 8/3]$, initial conditions $W_0 = [0., 1., 0.]$, and $\Delta t = 0.01$ so that $N = t/\Delta t$.
+
+To obtain the sensitivity of perturbations, a trajectory of $W'$ was computed with:
+\[
+    W_0' = W_0 + [0,\, 10^{-8},\, 0]
+\]
+The Euclidean distance between trajectories was:
+\[
+    d(t) = |W'(t) - W(t)| = \sqrt{(X'-X)^2 + (Y'-Y)^2 + (Z'-Z)^2}
+\]
+\vspace{-20pt}
+\subsection{Plots and Results}
+\begin{figure}[H]
+    \centering
+    \vspace{-20pt}
+    \includegraphics[width=0.6\textwidth]{CTA200/ass3_3.png}
+    \caption{Reproduction of Lorenz's Figure 1. $Y$ as a function of $N = t/\Delta t$.}
+    \label{fig:lorenz1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{CTA200/ass3_4.png}
+    \vspace{-20pt}
+    \caption{Reproduction of Lorenz's Figure 2. Phase space projections for $t = 14$ to $19$.}
+    \label{fig:lorenz2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{CTA200/ass3_5.png}
+    \vspace{-20pt}
+    \caption{Exponential divergence of trajectories $W$ and $W'$ on a semilog scale.}
+    \label{fig:lorenz3}
+\end{figure}
+
+Figure \ref{fig:lorenz1} shows the solution transitioning from regular oscillations in the first panel to fully chaotic behaviour by the third panel. Figure \ref{fig:lorenz2} shows the trajectory spirals inward
+toward two fixed points. Figure \ref{fig:lorenz3} shows the distance between $W$ and $W'$ on a semilogarithmic scale. The approximately straight line confirms exponential divergence. A perturbation of just $10^{-8}$ grows to large differences. Thus a small error in the initial condition can grow rapidly, meaning predictions of future behaviours are not accurate. 
+\end{document}
